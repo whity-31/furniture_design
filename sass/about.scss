@@ -1,0 +1,17 @@
+@import '../sass/common.scss';
+
+.about-wrapper{
+    margin: 100px 0;
+}
+
+.page-title{
+    margin-bottom: 45px;
+}
+
+@media (max-width:900px){
+
+    .about-wrapper{
+        margin-top: 60px;
+    }
+
+}

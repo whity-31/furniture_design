@@ -1,0 +1,45 @@
+@import '../sass/common.scss';
+
+.contact-wrapper{
+    width: 600px;
+    margin: 150px auto;
+}
+
+.contact-text{
+    text-align: center;
+}
+
+.contact-message{
+    font-size: 24px;
+    text-align: center;
+}
+
+.contact-info{
+    font-size: 30px;
+    line-height: 80px;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    dt{
+        width: 15%;
+        font-weight: normal;
+    }
+    dd{
+        width: 85%;
+        font-weight: 900;
+    }
+}
+
+@media (max-width:900px){
+
+    .contact-info{
+        flex-direction: column;
+        dt{
+            width: 100%;
+        }
+        dd{
+            width: 100%;
+        }
+    }
+
+}

@@ -1,0 +1,23 @@
+@import '../sass/common.scss';
+
+.product-wrapper{
+    display: flex;
+}
+
+.product-image{
+    width: 400px;
+}
+
+.product-image img{
+    width: 100%;
+}
+
+.product-text{
+    width: 400px;
+    margin-left: 50px;
+}
+
+.top-link{
+    text-align: center;
+    margin: 80px 0 160px;
+}

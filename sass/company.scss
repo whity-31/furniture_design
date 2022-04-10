@@ -1,0 +1,49 @@
+@import '../sass/common.scss';
+
+.company-wrapper{
+    max-width: 800px;
+    margin: 100px 0;
+    .page-title{
+        margin-bottom: 45px;
+    }
+}
+
+.company-info{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.company-info dt{
+    width: 30%;
+    border-bottom: 1px solid #222;
+    padding: 20px 10px;
+}
+
+.company-info dd{
+    width: 70%;
+    border-bottom: 1px solid #222;
+    padding: 20px 10px;
+}
+
+@media (max-width:900px){
+
+    .company-wrapper{
+        margin-top: 60px;
+    }
+
+    .company-info{
+        flex-direction: column;
+    }
+
+    .company-info dt{
+        width: 100%;
+        border-bottom: none;
+        padding: 20px 10px 5px;
+    }
+
+    .company-info dd{
+        width: 100%;
+        padding: 5px 10px 20p;
+    }
+
+}
